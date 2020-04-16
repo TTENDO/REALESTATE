@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 	<link rel="stylesheet" href="css/drop.css">
+	<link rel="icon" href="img/logoGEP.png">
 	
 
 
