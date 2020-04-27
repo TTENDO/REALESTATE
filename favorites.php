@@ -8,29 +8,31 @@
 		<div class="loader"></div>
 	</div> -->
 
-    	
+    	<!-- Header section with the nav -->
+     <div class="row">
+          <?php include 'include/navpsDashboard.php'?>
+     </div>
+     <br><br><br><br>
+     <div class="row">
 
-     <div class='row'>
-          <div class="col-sm-2 ">
-
-               
-              <div class="sidenav left">
-                              <img src="img/logoGEP.png" alt="Logo" style="height: 150px;width: 150px;padding-left: 20px"> 
+          <div class="col-sm-2">
+               <span class="sidenav left">
+                    <img src="img/logoGEP.png" alt="Logo" style="height: 150px;width: 150px;padding-left: 20px"> 
                          	<a href="#" class="nav-link">
                                    <i class="fa fa-user">&nbsp;&nbsp;
                                         My Profile</i>
                               </a>
-                              <a href="#" class="nav-link">
+                              <!-- <a href="#" class="nav-link">
                                    <i class="fa fa-map-marker">&nbsp;&nbsp;My Properties List</i>
-                              </a>
-                              <a href="addNewProperty.php" class="nav-link">
-                                   <i class="fa fa-plus">&nbsp;&nbsp;Add New Property</i>
-                              </a>
-                              <a href="favoriteProperties.php" class="nav-link">
-                                   <i class="fa fa-heart">&nbsp;&nbsp;Favorites</i>
+                              </a> -->
+                              <!-- <a href="addNewProperty.php" class="nav-link">
+                                   <i class="fa fa-plus active" >&nbsp;&nbsp;Add New Property</i>
+                              </a> -->
+                              <a href="favorites.php" class="nav-link">
+                                   <i class="fa fa-heart active">&nbsp;&nbsp;Favorites</i>
                               </a>
                               <a href="#" class="nav-link">
-                                   <i class="fa fa-search">&nbsp;&nbsp;Saved Seraches</i>
+                                   <i class="fa fa-search">&nbsp;&nbsp;Saved Searches</i>
                               </a>
                               <a href="#" class="nav-link">
                                    <i class="fa fa-envelope">&nbsp;&nbsp;Inbox</i>
@@ -38,28 +40,33 @@
                               <a href="#" class="nav-link">
                                    <i class="fa fa-power-off">&nbsp;&nbsp;Logout</i>
                               </a>
-                   
+               </span>
+          </div>
+          <div class="col-sm-10 ">
+               <h2>Dashboard-Favorites</h2>
+
+               <div class="after ">
+                    o	3.2.4  Implementation Methodology
+                    o	3.3 Overall network architecture
+                    o	SYSTEM IMPLEMENTATION – PROPERTY MANAGEMENT SYSTEM PROJECT
+                    o	II] OBJECTIVES OF TESTING:
+                    o	VI] TESTING METHODOLOGY:
+                    o	FUTURE SCOPE AND FURTHER ENHANCEMENT OF THE PROJECT
+                    o	5.2 Further Enhancement – PROPERTY MANAGEMENT SYSTEM PROJECT
+                    o	5.3 CONCLUSION
+                    o	APPENDIX – PROPERTY MANAGEMENT SYSTEM PROJECT
+
                </div>
           </div>
-          
-          <div class="col-sm-10">
-                <!-- <script src='https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDqh0jyviog7wZH9ZbkYWsVZv63ToBGH0A'></script><div style='overflow:hidden;height:400px;width:520px;'><div id='gmap_canvas' style='height:400px;width:520px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.org/'>Add-Map</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=c0c4bbd486bdeeb346ed89de6aa86f3563dcc2c7'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(1,32),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(1,32)});infowindow = new google.maps.InfoWindow({content:'<strong>LOCATE</strong><br>BEN KIWANUKA<br> KAMPALA<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script> -->
-                    
-                        <iframe
-                              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.75759166969!2d32.54635505002135!3d0.31612476411196244!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177da34670ffffff%3A0x36f33c4f806b1548!2sBiyem%20Hotel!5e0!3m2!1sen!2sug!4v1586946471904!5m2!1sen!2sug"
-                              frameborder="0"
-                              style="border: 0;"
-                              allowfullscreen=""
-                              aria-hidden="false"
-                              tabindex="0"
-                         ></iframe>
-          </div>
+
      </div>
+     
 
 
 
-             <!-- main section background -->
+            
      <style>
+        /* <!-- main section background --> */
       .mainSection {
         /*=====making the bg dim======*/
          background:/* linear-gradient(
@@ -138,8 +145,8 @@
 
           /* Add an active class to the active dropdown button */
           .active {
-          background-color: black;
-          color: white;
+          /* background-color: black; */
+          color: #30caa0;
           }
 
           /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
@@ -153,6 +160,13 @@
           .fa-caret-down {
           float: right;
           padding-right: 8px;
+          }
+
+          h2{
+               color:white;
+          }
+          .after{
+               padding-top:50px;
           }
 
                

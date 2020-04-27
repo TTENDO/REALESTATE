@@ -34,9 +34,9 @@
 		<div class="container">
 			<div id="map-canvas"></div>
 			<div class="contact-info-warp">
-				<p><i class="fa fa-map-marker"></i>3711-2880 Nulla St, Mankato, Mississippi</p>
-				<p><i class="fa fa-envelope"></i>info.leramiz@colorlib.com</p>
-				<p><i class="fa fa-phone"></i>(+88) 666 121 4321</p>
+				<p><i class="fa fa-map-marker"></i>Wampeewo Avenue,Kololo</p>
+				<p><i class="fa fa-envelope"></i>info.goldenestates@gmail.com</p>
+				<p><i class="fa fa-phone"></i>(+256) 705 936 481</p>
 			</div>
 			<div class="row">
 				<div class="col-lg-6">
