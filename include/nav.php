@@ -22,25 +22,25 @@
 							<a href="#"><i class="fa fa-linkedin"></i></a>
 						</div>
 						<div class="user-panel">
-						<!-- the class dropdown-toggle creates the dropdown icon -->
+							<!-- the class dropdown-toggle creates the dropdown icon -->
 							<div class="dropdown float-right dropdown-toggle" style="color:white">
-								<a href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o"></i> Register</a>
+								<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user-circle-o"></i> Register</a>
 
 								<div class="user-menu dropdown-content">
 
-											<a href="register.php" class="nav-link">
-												<i class="fa fa-user">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-													To find property</i>
-											</a>
-											<a href="regPropertyOwner.php" class="nav-link">
-												<i class="fa fa-home">&nbsp;As Property Owner</i>
-											</a>
-											
+									<a href="register.php" class="nav-link">
+										<i class="fa fa-user">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+											To find property</i>
+									</a>
+									<a href="regPropertyOwner.php" class="nav-link">
+										<i class="fa fa-home">&nbsp;As Property Owner</i>
+									</a>
+
 
 								</div>
 							</div>
-							 
-							<a href="#"><i class="fa fa-sign-in"></i> Login</a>
+
+							<a href="login.php"><i class="fa fa-sign-in"></i> Login</a>
 						</div>
 					</div>
 				</div>
@@ -53,15 +53,15 @@
 					<div class="col-lg-4 header-top-left">
 						<div class="top-info">
 							<img src="img/logoGEP.png" class="logo" alt="">
-							
+
 						</div>
-						
+
 					</div>
 					<div class="col-lg-8 text-lg-right header-top-right">
 						<div class="nav-switch">
 							<i class="fa fa-bars" style="color:white"></i>
 						</div>
-					
+
 						<ul class="main-menu" style="padding-top:65px">
 							<li><a href="index.php">Home</a></li>
 							<li><a href="categories1.php">FEATURED LISTING</a></li>
@@ -70,13 +70,13 @@
 							<!-- <li><a href="blog.php">Blog</a></li> -->
 							<li><a href="contact.php">Contact</a></li>
 						</ul>
-						
-						
+
+
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 
 	</header>
 	<!-- Header section with the nav end -->

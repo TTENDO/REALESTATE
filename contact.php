@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include 'include/header.php' ?>
+
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- Header section with the nav -->
-	<?php include 'include/nav.php'?>
+	<?php include 'include/nav.php' ?>
 
 	<!-- Hero section -->
 
@@ -57,8 +58,8 @@
 									<input type="text" placeholder="Your email">
 								</div>
 								<div class="col-md-12">
-									<textarea  placeholder="Your message"></textarea>
-									<button class="site-btn">SUMMIT NOW</button>
+									<textarea placeholder="Your message"></textarea>
+									<button class="site-btn">SUBMIT NOW</button>
 								</div>
 							</div>
 						</form>
@@ -96,7 +97,7 @@
 
 
 	<!-- footer -->
-		<?php include 'include/foot.php' ?>
+	<?php include 'include/foot.php' ?>
 
 	<!-- load for map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
@@ -104,4 +105,5 @@
 
 
 </body>
+
 </html>

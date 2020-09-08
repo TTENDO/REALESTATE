@@ -63,6 +63,21 @@
 .cancelbtn:hover {
   background-color: white;
 }
+/*================
+login.php for property seekers
+
+============*/
+
+.loginBtn {
+  background-color: #30caa0;
+  color: white;
+}
+
+.loginBtn:hover {
+  background-color: #178d6d;
+}
+
+
 
 /*LOGO*/
 .site-logo {

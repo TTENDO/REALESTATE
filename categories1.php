@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'include/header.php'?>
+<?php include 'include/header.php' ?>
+
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- Header section with the nav -->
-	<?php include 'include/nav.php'?>
+	<?php include 'include/nav.php' ?>
 
 	<!-- Hero section -->
 
@@ -54,7 +55,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 6 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -62,7 +63,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,200,000</a>
@@ -89,7 +90,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -97,7 +98,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$4,500,000</a>
@@ -124,7 +125,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -132,7 +133,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$2,500/month</a>
@@ -159,7 +160,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -167,7 +168,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$5,600,000</a>
@@ -194,7 +195,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -202,7 +203,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600/month</a>
@@ -229,7 +230,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 7 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -237,7 +238,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -264,7 +265,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -272,7 +273,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,250,000</a>
@@ -299,7 +300,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -307,7 +308,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,230,000</a>
@@ -334,15 +335,15 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i>  McHenry, MD 21541</p>
+										<p><i class="fa fa-user"></i> McHenry, MD 21541</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,000/month</a>
@@ -369,7 +370,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 10 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -377,7 +378,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -398,13 +399,13 @@
 							<div class="room-info-warp">
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i>   750 Square foot</p>
+										<p><i class="fa fa-th-large"></i> 750 Square foot</p>
 										<p><i class="fa fa-bed"></i> 5 Bedrooms</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -412,7 +413,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,800/month</a>
@@ -433,21 +434,21 @@
 							<div class="room-info-warp">
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i>   200 Square foot</p>
+										<p><i class="fa fa-th-large"></i> 200 Square foot</p>
 										<p><i class="fa fa-bed"></i> 2 Bedrooms</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i>  Gina Wesley</p>
+										<p><i class="fa fa-user"></i> Gina Wesley</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$235,000</a>
@@ -492,11 +493,12 @@
 
 
 	<!-- Footer section -->
-		
-	<?php include 'include/foot.php'?>
 
-	
+	<?php include 'include/foot.php' ?>
+
+
 	<!-- Footer section end -->
-   
+
 </body>
+
 </html>

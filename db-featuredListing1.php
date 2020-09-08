@@ -1,14 +1,53 @@
+<?php
+
+//create connection
+$conn = mysqli_connect('localhost', 'root', '', 'realestate');
+
+$message = "";
+if (isset($_POST['submit'])) {
+
+	$ID;
+	$notic = $_POST['notic'];
+	$location = $_POST['location'];
+	$property_size = $_POST['property_size'];
+	$no_of_bedrooms = $_POST['no_of_bedrooms'];
+	$no_of_garages = $_POST['no_of_garages'];
+	$no_of_bathrooms = $_POST['no_of_bathrooms'];
+	$price = $_POST['price'];
+	$broker_in_charge = $_POST['broker_in_charge'];
+
+
+
+	$validate = mysqli_query($conn, "select * from favorites where propertyID='$ID' OR location= '$location'");
+
+	if (mysqli_num_rows($validate) == 0) {
+
+		$insert_fav = mysqli_query($conn, "insert into favorites(ID,notic,location,property_size,no_of_bedrooms,no_of_garages,no_of_bathrooms,price,broker_in_charge) VALUES('$notic','$location','$property_size','$no_of_bedrooms','$no_of_garages','$no_of_bathrooms','$price','$broker_in_charge')");
+
+		if ($insert_fav) {
+
+			$message = "COURSE SUCCESSFULLY SUMITTED";
+		}
+	} else {
+		$message = "COUSRE ALREADY REGISTERED";
+	}
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'include/header.php'?>
+<?php include 'include/header.php' ?>
+
 <body>
 	<!-- Page Preloder -->
 	<!-- <div id="preloder">
 		<div class="loader"></div>
 	</div> -->
-	
+
 	<!-- Header section with the nav -->
-	 <header class="header-section">
+	<header class="header-section">
 		<div class="header-top">
 			<div class="container">
 				<div class="row">
@@ -22,7 +61,7 @@
 							info.goldenestates@gmail.com
 						</div>
 					</div>
-				      <div class="col-lg-4 text-lg-right header-top-right">
+					<div class="col-lg-4 text-lg-right header-top-right">
 						<!--<div class="top-social">
 							<a href="#"><i class="fa fa-facebook"></i></a>
 							<a href="#"><i class="fa fa-twitter"></i></a>
@@ -31,48 +70,48 @@
 							<a href="#"><i class="fa fa-linkedin"></i></a>
 						</div> -->
 						<div class="user-panel">
-						<!-- the class dropdown-toggle creates the dropdown icon -->
+							<!-- the class dropdown-toggle creates the dropdown icon -->
 							<div class="dropdown float-left dropdown-toggle" style="color:white">
-								<a href="#"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                             <img src="img/team/1.jpg" alt="User Avatar" class=" user-avatar rounded-circle dropdown dropdown-toggle">  
-                                        </a>
+								<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="img/team/1.jpg" alt="User Avatar" class=" user-avatar rounded-circle dropdown dropdown-toggle">
+								</a>
 
 								<div class="user-menu dropdown-content">
 
-											<a href="#" class="nav-link">
-												<i class="fa fa-user">&nbsp;&nbsp;
-													My Profile</i>
-											</a>
-											<!-- <a href="#" class="nav-link">
+									<a href="#" class="nav-link">
+										<i class="fa fa-user">&nbsp;&nbsp;
+											My Profile</i>
+									</a>
+									<!-- <a href="#" class="nav-link">
                                                             <i class="fa fa-map-marker">&nbsp;&nbsp;My Properties List</i>
                                                        </a>
 											<a href="#" class="nav-link">
                                                             <i class="fa fa-plus">&nbsp;&nbsp;Add New Property</i>
                                                        </a> -->
-											<a href="favorites.php" class="nav-link">
-                                                            <i class="fa fa-heart">&nbsp;&nbsp;Favorites</i>
-                                                       </a>
-											<a href="#" class="nav-link">
-                                                            <i class="fa fa-search">&nbsp;&nbsp;Saved Searches</i>
-                                                       </a>
-											<a href="#" class="nav-link">
-                                                            <i class="fa fa-envelope">&nbsp;&nbsp;Inbox</i>
-                                                       </a>
-                                                       <a href="#" class="nav-link">
-                                                            <i class="fa fa-power-off">&nbsp;&nbsp;Logout</i>
-                                                       </a>
-                                                                 
+									<a href="favorites.php" class="nav-link">
+										<i class="fa fa-heart">&nbsp;&nbsp;Favorites</i>
+									</a>
+									<a href="#" class="nav-link">
+										<i class="fa fa-search">&nbsp;&nbsp;Saved Searches</i>
+									</a>
+									<a href="#" class="nav-link">
+										<i class="fa fa-envelope">&nbsp;&nbsp;Inbox</i>
+									</a>
+									<a href="#" class="nav-link">
+										<i class="fa fa-power-off">&nbsp;&nbsp;Logout</i>
+									</a>
+
 
 								</div>
 							</div>
 
 
-                                    
-							 
+
+
 						</div>
 					</div>
 
-                         <div class="col-lg-2"></div>
+					<div class="col-lg-2"></div>
 				</div>
 			</div>
 		</div>
@@ -83,32 +122,32 @@
 					<div class="col-lg-4 header-top-left">
 						<div class="top-info">
 							<!-- <img src="img/logoGEP.png" class="logo" alt=""> -->
-							
+
 						</div>
-						
+
 					</div>
 					<div class="col-lg-8 text-lg-right header-top-right">
 						<!-- <div class="nav-switch">
 							<i class="fa fa-bars" style="color:white"></i>
 						</div> -->
-					
-						<ul class="main-menu" >
+
+						<ul class="main-menu">
 							<!-- <li><a href="index.php">Home</a></li> -->
 							<li><a href="db-featuredListing1.php">FEATURED LISTING</a></li>
 							<li><a href="db-aboutUs.php">ABOUT US</a></li>
 							<li><a href="db-contact.php">CONTACT</a></li>
 						</ul>
-						
-						
+
+
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 
 	</header>
 	<!-- Header section with the nav end -->
-     
+
 
 	<!-- Hero section -->
 
@@ -130,50 +169,83 @@
 	</div>
 
 
-	<!-- page -->
+	<!-- page-->
 	<section class="page-section categories-page">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<!-- feature -->
-					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-1.jpg">
-							<div class="sale-notic">FOR SALE</div>
-						</div>
-						<div class="feature-text">
-							<div class="text-center feature-title">
-								<h5>1963 S Crescent Heights Blvd</h5>
-								<p><i class="fa fa-map-marker"></i> Los Angeles, CA 90034</p>
-							</div>
-							<div class="room-info-warp">
-								<div class="room-info">
-									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i> 800 Square foot</p>
-										<p><i class="fa fa-bed"></i> 10 Bedrooms</p>
-									</div>
-									<div class="rf-right">
-										<p><i class="fa fa-car"></i> 2 Garages</p>
-										<p><i class="fa fa-bath"></i> 6 Bathrooms</p>
-									</div>	
-								</div>
-								<div class="room-info">
-									<div class="rf-left">
-										<p><i class="fa fa-user"></i> Tony Holland</p>
-									</div>
-									<div class="rf-right">
-										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+
+				<div class="col-lg-4 col-md-6 feature">
+					<form method="post" action="">
+						<!-- feature -->
+						<div class="feature-item">
+							<div class="feature-pic set-bg" data-setbg="img/ug/bg-1.jpg">
+								<div class="sale-notic" name=" notic" style="background-color:#df0808">FOR SALE</div>
+								<div class="addToFav" style=" padding-top: 100px; padding-left: 198px;">
+									<?php include 'include/favorite.php' ?>
 								</div>
 							</div>
-							<a href="#" class="room-price">$1,200,000</a>
+
+							<div class="feature-text">
+
+								<div class="text-center feature-title">
+									<h5>1963 S Crescent Heights Blvd</h5>
+									<p name="location"><i class="fa fa-map-marker"></i> Los Angeles, CA 90034</p>
+
+								</div>
+
+
+								<!-- <div class="room-info-warp">
+									<div class="room-info">
+										<div class="rf-left">
+											<p name="property_size"><i class="fa fa-th-large"></i> 800 Square foot</p>
+											<p name="no_of_bedrooms"><i class="fa fa-bed"></i> 10 Bedrooms</p>
+										</div>
+										<div class="rf-right">
+											<p name="no_of_garages"><i class="fa fa-car"></i> 2 Garages</p>
+											<p name="no_of_bathrooms"><i class="fa fa-bath"></i> 6 Bathrooms</p>
+										</div>
+									</div>
+									<div class="room-info">
+										<div class="rf-left">
+											<p name="broker_in_charge"><i class="fa fa-user"></i> Tony Holland</p>
+										</div>
+										<div class="rf-right">
+											<p><i class="fa fa-clock-o"></i> 1 days ago</p>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="price" name="price">$1,200,000</a>
+							</div> -->
+								<div class="room-info-warp">
+									<div class="room-info">
+										<div class="rf-left">
+											<p name="property_size"><i class="fa fa-th-large"></i> 800 Square foot</p>
+											<p name="no_of_bedrooms"><i class="fa fa-bed"></i> 10 Bedrooms</p>
+										</div>
+										<div class="rf-right">
+											<p name="no_of_garages"><i class="fa fa-car"></i> 2 Garages</p>
+											<p name="no_of_bathrooms"><i class="fa fa-bath"></i> 6 Bathrooms</p>
+										</div>
+									</div>
+									<div class="room-info">
+										<div class="rf-left">
+											<p name="broker_in_charge"><i class="fa fa-user"></i> Tony Holland</p>
+										</div>
+										<div class="rf-right">
+											<p><i class="fa fa-clock-o"></i> 1 days ago</p>
+										</div>
+									</div>
+								</div>
+								<a href="#" class="room-price" name="price">$1,200,000</a>
+							</div>
 						</div>
-					</div>
+					</form>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/ug/bg-2.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -189,7 +261,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -197,7 +269,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$4,500,000</a>
@@ -208,7 +280,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/ug/bg-3.jpg">
-							<div class="rent-notic">FOR Rent</div>
+							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -224,7 +296,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -232,7 +304,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$2,500/month</a>
@@ -243,7 +315,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/ug/bg-4.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -259,7 +331,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -267,7 +339,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$5,600,000</a>
@@ -278,7 +350,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/5.jpg">
-							<div class="rent-notic">FOR Rent</div>
+							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -294,7 +366,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -302,7 +374,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600/month</a>
@@ -313,7 +385,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/6.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -329,7 +401,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 7 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -337,7 +409,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -348,7 +420,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/7.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -364,7 +436,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -372,7 +444,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,250,000</a>
@@ -383,7 +455,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/8.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -399,7 +471,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -407,7 +479,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,230,000</a>
@@ -418,7 +490,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/ug/bg-6.jpg">
-							<div class="rent-notic">FOR Rent</div>
+							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -434,15 +506,15 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i>  McHenry, MD 21541</p>
+										<p><i class="fa fa-user"></i> McHenry, MD 21541</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,000/month</a>
@@ -453,7 +525,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/ug/bg-13.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -469,7 +541,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 10 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -477,7 +549,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -488,7 +560,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/11.jpg">
-							<div class="rent-notic">FOR Rent</div>
+							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -498,13 +570,13 @@
 							<div class="room-info-warp">
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i>   750 Square foot</p>
+										<p><i class="fa fa-th-large"></i> 750 Square foot</p>
 										<p><i class="fa fa-bed"></i> 5 Bedrooms</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -512,7 +584,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,800/month</a>
@@ -523,7 +595,7 @@
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/ug/bg-14.jpg">
-							<div class="sale-notic">FOR SALE</div>
+							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
@@ -533,27 +605,29 @@
 							<div class="room-info-warp">
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i>   200 Square foot</p>
+										<p><i class="fa fa-th-large"></i> 200 Square foot</p>
 										<p><i class="fa fa-bed"></i> 2 Bedrooms</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i>  Gina Wesley</p>
+										<p><i class="fa fa-user"></i> Gina Wesley</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$235,000</a>
 						</div>
 					</div>
 				</div>
+
+
 			</div>
 			<div class="site-pagination">
 				<span href="db-featuredListing1.php">1</span>
@@ -592,11 +666,12 @@
 
 
 	<!-- Footer section -->
-		
-	<?php include 'include/foot.php'?>
 
-	
+	<?php include 'include/foot.php' ?>
+
+
 	<!-- Footer section end -->
-   
+
 </body>
+
 </html>
