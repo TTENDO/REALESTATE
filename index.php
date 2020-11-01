@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'include/header.php'?>
+<?php include 'include/header.php' ?>
+
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-	
+
 	<!-- Header section with the nav -->
-	<?php include 'include/nav.php'?>
+	<?php include 'include/nav.php' ?>
 
 	<!-- Hero section -->
 	<section class="hero-section set-bg" data-setbg="img/partner/condo.jpg">
@@ -126,7 +127,7 @@
 							<i class="fa fa-home"></i>
 							<div class="service-text">
 								<h5>Buying or Renting a home</h5>
-								<p>We  provide homes for rent and for sale in a number of locations in Uganda.</p>
+								<p>We provide homes for rent and for sale in a number of locations in Uganda.</p>
 							</div>
 						</div>
 						<div class="service-item">
@@ -160,8 +161,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1963 S Crescent Heights Blvd</h5>
-								<p><i class="fa fa-map-marker"></i> Los Angeles, CA 90034</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kisaasi</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -172,7 +172,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 6 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -180,7 +180,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,200,000</a>
@@ -195,8 +195,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+							
+								<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -207,7 +207,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -215,7 +215,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$4,500,000</a>
@@ -230,8 +230,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+								
+								<p><i class="fa fa-map-marker"></i> &nbsp;Bweyogerere</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -242,7 +242,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -250,7 +250,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$2,500/month</a>
@@ -265,8 +265,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>28 Quaker Ridge Road, Manhasset</h5>
-								<p><i class="fa fa-map-marker"></i> 28 Quaker Ridge Road, Manhasset</p>
+								
+								<p><i class="fa fa-map-marker"></i> &nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -277,7 +277,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -285,7 +285,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$5,600,000</a>
@@ -300,8 +300,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>Sofi Berryessa 750 N King Road</h5>
-								<p><i class="fa fa-map-marker"></i> San Jose, CA 95133</p>
+								
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -312,7 +312,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -320,7 +320,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600/month</a>
@@ -335,8 +335,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1203 Orren Street, Northeast</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20002</p>
+								
+								<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -347,7 +347,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 7 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -355,7 +355,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -432,7 +432,7 @@
 						<p>50 Properties</p>
 					</div>
 				</a>
-				
+
 			</div>
 		</div>
 	</section>
@@ -489,7 +489,7 @@
 	<!-- Review section end-->
 
 
-	
+
 	<!-- Clients section -->
 	<!-- <div class="clients-section">
 		<div class="container">
@@ -515,7 +515,8 @@
 	<!-- Clients section end -->
 
 
-	<?php include 'include/foot.php'?>
-	
+	<?php include 'include/foot.php' ?>
+
 </body>
+
 </html>

@@ -172,85 +172,51 @@ if (isset($_POST['submit'])) {
 	<!-- page-->
 	<section class="page-section categories-page">
 		<div class="container">
-			<div class="row">
-
-				<div class="col-lg-4 col-md-6 feature">
-					<form method="post" action="">
-						<!-- feature -->
-						<div class="feature-item">
-							<div class="feature-pic set-bg" data-setbg="img/ug/bg-1.jpg">
-								<div class="sale-notic" name=" notic" style="background-color:#df0808">FOR SALE</div>
-								<div class="addToFav" style=" padding-top: 100px; padding-left: 198px;">
-									<?php include 'include/favorite.php' ?>
-								</div>
-							</div>
-
-							<div class="feature-text">
-
-								<div class="text-center feature-title">
-									<h5>1963 S Crescent Heights Blvd</h5>
-									<p name="location"><i class="fa fa-map-marker"></i> Los Angeles, CA 90034</p>
-
-								</div>
-
-
-								<!-- <div class="room-info-warp">
-									<div class="room-info">
-										<div class="rf-left">
-											<p name="property_size"><i class="fa fa-th-large"></i> 800 Square foot</p>
-											<p name="no_of_bedrooms"><i class="fa fa-bed"></i> 10 Bedrooms</p>
-										</div>
-										<div class="rf-right">
-											<p name="no_of_garages"><i class="fa fa-car"></i> 2 Garages</p>
-											<p name="no_of_bathrooms"><i class="fa fa-bath"></i> 6 Bathrooms</p>
-										</div>
-									</div>
-									<div class="room-info">
-										<div class="rf-left">
-											<p name="broker_in_charge"><i class="fa fa-user"></i> Tony Holland</p>
-										</div>
-										<div class="rf-right">
-											<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-										</div>
-									</div>
-								</div>
-								<a href="#" class="price" name="price">$1,200,000</a>
-							</div> -->
-								<div class="room-info-warp">
-									<div class="room-info">
-										<div class="rf-left">
-											<p name="property_size"><i class="fa fa-th-large"></i> 800 Square foot</p>
-											<p name="no_of_bedrooms"><i class="fa fa-bed"></i> 10 Bedrooms</p>
-										</div>
-										<div class="rf-right">
-											<p name="no_of_garages"><i class="fa fa-car"></i> 2 Garages</p>
-											<p name="no_of_bathrooms"><i class="fa fa-bath"></i> 6 Bathrooms</p>
-										</div>
-									</div>
-									<div class="room-info">
-										<div class="rf-left">
-											<p name="broker_in_charge"><i class="fa fa-user"></i> Tony Holland</p>
-										</div>
-										<div class="rf-right">
-											<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-										</div>
-									</div>
-								</div>
-								<a href="#" class="room-price" name="price">$1,200,000</a>
-							</div>
+				<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<!-- feature -->
+					<div class="feature-item">
+						<div class="feature-pic set-bg" data-setbg="img/feature/1.jpg">
+							<div class="sale-notic">FOR SALE</div>
 						</div>
-					</form>
+						<div class="feature-text">
+							<div class="text-center feature-title">
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kisaasi</p>
+							</div>
+							<div class="room-info-warp">
+								<div class="room-info">
+									<div class="rf-left">
+										<p><i class="fa fa-th-large"></i> 800 Square foot</p>
+										<p><i class="fa fa-bed"></i> 10 Bedrooms</p>
+									</div>
+									<div class="rf-right">
+										<p><i class="fa fa-car"></i> 2 Garages</p>
+										<p><i class="fa fa-bath"></i> 6 Bathrooms</p>
+									</div>
+								</div>
+								<div class="room-info">
+									<div class="rf-left">
+										<p><i class="fa fa-user"></i> Tony Holland</p>
+									</div>
+									<div class="rf-right">
+										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
+									</div>
+								</div>
+							</div>
+							<a href="#" class="room-price">$1,200,000</a>
+						</div>
+					</div>
 				</div>
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-2.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+						<div class="feature-pic set-bg" data-setbg="img/feature/2.jpg">
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+								
+								<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -279,13 +245,13 @@ if (isset($_POST['submit'])) {
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-3.jpg">
-							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
+						<div class="feature-pic set-bg" data-setbg="img/feature/3.jpg">
+							<div class="rent-notic">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+							
+									<p><i class="fa fa-map-marker"></i> &nbsp;Bweyogerere</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -314,13 +280,12 @@ if (isset($_POST['submit'])) {
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-4.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+						<div class="feature-pic set-bg" data-setbg="img/feature/4.jpg">
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>28 Quaker Ridge Road, Manhasset</h5>
-								<p><i class="fa fa-map-marker"></i> 28 Quaker Ridge Road, Manhasset</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -350,12 +315,11 @@ if (isset($_POST['submit'])) {
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/5.jpg">
-							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
+							<div class="rent-notic">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>Sofi Berryessa 750 N King Road</h5>
-								<p><i class="fa fa-map-marker"></i> San Jose, CA 95133</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -385,12 +349,11 @@ if (isset($_POST['submit'])) {
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/6.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1203 Orren Street, Northeast</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20002</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -420,12 +383,11 @@ if (isset($_POST['submit'])) {
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/7.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1476 Harvard St NW Unit Ph</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20009</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Kawuku</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -455,12 +417,11 @@ if (isset($_POST['submit'])) {
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/8.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>9633 Weathered Oak Ct</h5>
-								<p><i class="fa fa-map-marker"></i> Bethesda, MD 208179</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Bugolobi</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -489,13 +450,12 @@ if (isset($_POST['submit'])) {
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-6.jpg">
-							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
+						<div class="feature-pic set-bg" data-setbg="img/feature/9.jpg">
+							<div class="rent-notic">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>2529 Marsh Hill Henry Rd Unit Mc</h5>
-								<p><i class="fa fa-map-marker"></i> McHenry, MD 21541</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -524,13 +484,12 @@ if (isset($_POST['submit'])) {
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-13.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+						<div class="feature-pic set-bg" data-setbg="img/feature/10.jpg">
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>6335 N Magnolia Ave Apt 1S</h5>
-								<p><i class="fa fa-map-marker"></i> Chicago, IL 60660</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -560,12 +519,11 @@ if (isset($_POST['submit'])) {
 					<!-- feature -->
 					<div class="feature-item">
 						<div class="feature-pic set-bg" data-setbg="img/feature/11.jpg">
-							<div class="rent-notic" style="background-color:#df0808">FOR Rent</div>
+							<div class="rent-notic">FOR Rent</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>441 E Maywood Ct</h5>
-								<p><i class="fa fa-map-marker"></i> Decatur, IL 62526</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -594,13 +552,12 @@ if (isset($_POST['submit'])) {
 				<div class="col-lg-4 col-md-6">
 					<!-- feature -->
 					<div class="feature-item">
-						<div class="feature-pic set-bg" data-setbg="img/ug/bg-14.jpg">
-							<div class="sale-notic" style="background-color:#df0808">FOR SALE</div>
+						<div class="feature-pic set-bg" data-setbg="img/feature/12.jpg">
+							<div class="sale-notic">FOR SALE</div>
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>712 Southland Circle Dr</h5>
-								<p><i class="fa fa-map-marker"></i> Tuscola, IL 61953</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -626,8 +583,6 @@ if (isset($_POST['submit'])) {
 						</div>
 					</div>
 				</div>
-
-
 			</div>
 			<div class="site-pagination">
 				<span href="db-featuredListing1.php">1</span>

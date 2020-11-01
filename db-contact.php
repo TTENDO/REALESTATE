@@ -131,7 +131,10 @@
 	<!-- page -->
 	<section class="page-section blog-page">
 		<div class="container">
-			<div id="map-canvas"></div>
+				<div>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.755046211864!2d32.5939561147533!3d0.32268199976457596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb8fc9c3b9fd%3A0x754fe2276a55ad1e!2sWampewo%20Ave%2C%20Kampala!5e0!3m2!1sen!2sug!4v1604235651172!5m2!1sen!2sug" width="800" height="800" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			
+			</div>
 			<div class="contact-info-warp">
 				<p><i class="fa fa-map-marker"></i>Wampeewo Avenue,Kololo</p>
 				<p><i class="fa fa-envelope"></i>info.goldenestates@gmail.com</p>

@@ -43,8 +43,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1963 S Crescent Heights Blvd</h5>
-								<p><i class="fa fa-map-marker"></i> Los Angeles, CA 90034</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kisaasi</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -78,8 +77,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+								
+								<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -113,8 +112,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+							
+									<p><i class="fa fa-map-marker"></i> &nbsp;Bweyogerere</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -148,8 +147,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>28 Quaker Ridge Road, Manhasset</h5>
-								<p><i class="fa fa-map-marker"></i> 28 Quaker Ridge Road, Manhasset</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -183,8 +181,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>Sofi Berryessa 750 N King Road</h5>
-								<p><i class="fa fa-map-marker"></i> San Jose, CA 95133</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -218,8 +215,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1203 Orren Street, Northeast</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20002</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -253,8 +249,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1476 Harvard St NW Unit Ph</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20009</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Kawuku</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -288,8 +283,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>9633 Weathered Oak Ct</h5>
-								<p><i class="fa fa-map-marker"></i> Bethesda, MD 208179</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Bugolobi</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -323,8 +317,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>2529 Marsh Hill Henry Rd Unit Mc</h5>
-								<p><i class="fa fa-map-marker"></i> McHenry, MD 21541</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -358,8 +351,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>6335 N Magnolia Ave Apt 1S</h5>
-								<p><i class="fa fa-map-marker"></i> Chicago, IL 60660</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -393,8 +385,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>441 E Maywood Ct</h5>
-								<p><i class="fa fa-map-marker"></i> Decatur, IL 62526</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -428,8 +419,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>712 Southland Circle Dr</h5>
-								<p><i class="fa fa-map-marker"></i> Tuscola, IL 61953</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">

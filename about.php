@@ -34,17 +34,17 @@
 			<div class="row about-text">
 				<div class="col-xl-6 about-text-left">
 					<h5>ABOUT US</h5>
-					<p>Lorem ipsum dolor sitdoni amet, consectetur donald adipis elite for. Vivamus interdum ultrices augue. Aenean dos cursus lania. Duis et fringilla leonardo. Mauris mattis sem, debut curus risus viverra sed. Vestibul vitae velit felis. Nulla placerat orci ante casat. Pellentesque ac placerat . Cras urna duis, ornare cursus purus.</p>
-					<p>Ut vel auctor ligula. Aenean nec dui pretium, commodo ligula sit amet, faucibus purus. Mauris at dolor imperdiet, aliquet nisi non, vulputate est. Maecenas feugiat sagittis lacus. Mauris dinissim consequat tellus id congue. Mauris bendum mollis viverra. Vestibulum in leo placerat sollicitudin varius.</p>
+					<p>Golden Estates aims at making your real estate - finding process a smooth sail in the sea in the comfort of your home and at your finger tips.</p>
+					
 				</div>
 				<div class="col-xl-6 about-text-right">
-					<h5>OUR QUALITY</h5>
-					<p>Donec enim ipsum porta justo integer at velna vitae auctor integer congue magna at risus auctor purus unt pretium ligula rutrum integer sapien ultrice ligula luctus undo magna risus</p>
+					<h5>OUR QUALITY SERVICES</h5>
+					
 					<ul class="about-list">
-						<li><i class="fa fa-check-circle-o"></i>Lorem ipsum dolor sitdoni amet, consectetur dont adipis elite vivamus interdum.</li>
-						<li><i class="fa fa-check-circle-o"></i>Integer pulvinar ante nulla, ac fermentum ex congue id vestibulum ensectetur. </li>
-						<li><i class="fa fa-check-circle-o"></i>Proin blandit nibh in quam semper iaculis lorem ipsum dolor salama ender.</li>
-						<li><i class="fa fa-check-circle-o"></i>Mauris at dolor imperdiet, aliquet nisi non, vulputate est sit amet.</li>
+						<li><i class="fa fa-check-circle-o"></i>We offer <b>Consultancy</b> as we guide you in finding a perfect place for a home in Uganda</li>
+						<li><i class="fa fa-check-circle-o"></i>We <b>aim at easing</b> the process of you acquiring land in dfferent locations in Uganda </li>
+						<li><i class="fa fa-check-circle-o"></i>We provide a number of homes for both rent and sale in a number of locations in Uganda</li>
+						<li><i class="fa fa-check-circle-o"></i>Forget the hustle of the untraceable brokers with a new and unforgettable experience from our agents!!</li>
 					</ul>
 				</div>
 			</div>

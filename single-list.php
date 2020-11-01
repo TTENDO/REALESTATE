@@ -161,8 +161,8 @@
 							<p>Real Estate Agent</p>
 						</div>
 						<div class="author-contact">
-							<p><i class="fa fa-phone"></i>(567) 666 121 2233</p>
-							<p><i class="fa fa-envelope"></i>ginawesley26@gmail.com</p>
+							<p><i class="fa fa-phone"></i>(+256) 705 897 452</p>
+							<p><i class="fa fa-envelope"></i>ginawesley@gep.com</p>
 						</div>
 					</div>
 					<div class="contact-form-card">
@@ -181,8 +181,7 @@
 								<div class="sale-notic">FOR SALE</div>
 							</div>
 							<div class="rp-info">
-								<h5>1963 S Crescent Heights Blvd</h5>
-								<p><i class="fa fa-map-marker"></i>Los Angeles, CA 90034</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Bweyogerere</p>
 							</div>
 							<a href="#" class="rp-price">$1,200,000</a>
 						</div>
@@ -191,8 +190,7 @@
 								<div class="rent-notic">FOR Rent</div>
 							</div>
 							<div class="rp-info">
-								<h5>17 Sturges Road, Wokingham</h5>
-								<p><i class="fa fa-map-marker"></i> Newtown, CT 06470</p>
+							<p><i class="fa fa-map-marker"></i> &nbsp;Kisaasi</p>
 							</div>
 							<a href="#" class="rp-price">$2,500/month</a>
 						</div>
@@ -201,8 +199,7 @@
 								<div class="sale-notic">FOR SALE</div>
 							</div>
 							<div class="rp-info">
-								<h5>28 Quaker Ridge Road, Manhasset</h5>
-								<p><i class="fa fa-map-marker"></i>28 Quaker Ridge Road, Manhasset</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Naalya</p>
 							</div>
 							<a href="#" class="rp-price">$5,600,000</a>
 						</div>
@@ -211,8 +208,7 @@
 								<div class="rent-notic">FOR Rent</div>
 							</div>
 							<div class="rp-info">
-								<h5>Sofi Berryessa 750 N King Road</h5>
-								<p><i class="fa fa-map-marker"></i>Sofi Berryessa 750 N King Road</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Entebbe</p>
 							</div>
 							<a href="#" class="rp-price">$1,600/month</a>
 						</div>

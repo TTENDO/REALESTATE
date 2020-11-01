@@ -141,8 +141,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1963 S Crescent Heights Blvd</h5>
-								<p><i class="fa fa-map-marker"></i> Los Angeles, CA 90034</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kisaasi</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -153,7 +152,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 6 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -161,7 +160,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,200,000</a>
@@ -176,8 +175,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+								
+								<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -188,7 +187,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -196,7 +195,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$4,500,000</a>
@@ -211,8 +210,8 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>305 North Palm Drive</h5>
-								<p><i class="fa fa-map-marker"></i> Beverly Hills, CA 90210</p>
+							
+									<p><i class="fa fa-map-marker"></i> &nbsp;Bweyogerere</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -223,7 +222,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -231,7 +230,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$2,500/month</a>
@@ -246,8 +245,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>28 Quaker Ridge Road, Manhasset</h5>
-								<p><i class="fa fa-map-marker"></i> 28 Quaker Ridge Road, Manhasset</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -258,7 +256,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -266,7 +264,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$5,600,000</a>
@@ -281,8 +279,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>Sofi Berryessa 750 N King Road</h5>
-								<p><i class="fa fa-map-marker"></i> San Jose, CA 95133</p>
+								<p><i class="fa fa-map-marker"></i> &nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -293,7 +290,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -301,7 +298,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600/month</a>
@@ -316,8 +313,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1203 Orren Street, Northeast</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20002</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -328,7 +324,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 7 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -336,7 +332,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -351,8 +347,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>1476 Harvard St NW Unit Ph</h5>
-								<p><i class="fa fa-map-marker"></i> Washington, DC 20009</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Kawuku</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -363,7 +358,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -371,7 +366,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,250,000</a>
@@ -386,8 +381,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>9633 Weathered Oak Ct</h5>
-								<p><i class="fa fa-map-marker"></i> Bethesda, MD 208179</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Bugolobi</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -398,7 +392,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 2 Garages</p>
 										<p><i class="fa fa-bath"></i> 8 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -406,7 +400,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,230,000</a>
@@ -421,8 +415,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>2529 Marsh Hill Henry Rd Unit Mc</h5>
-								<p><i class="fa fa-map-marker"></i> McHenry, MD 21541</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Muyenga</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -433,15 +426,15 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i>  McHenry, MD 21541</p>
+										<p><i class="fa fa-user"></i> McHenry, MD 21541</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 1 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,000/month</a>
@@ -456,8 +449,7 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>6335 N Magnolia Ave Apt 1S</h5>
-								<p><i class="fa fa-map-marker"></i> Chicago, IL 60660</p>
+							<p><i class="fa fa-map-marker"></i>&nbsp;Naalya</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
@@ -468,7 +460,7 @@
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 3 Garages</p>
 										<p><i class="fa fa-bath"></i> 10 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -476,7 +468,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,600,000</a>
@@ -491,19 +483,18 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>441 E Maywood Ct</h5>
-								<p><i class="fa fa-map-marker"></i> Decatur, IL 62526</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Kawanda</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i>   750 Square foot</p>
+										<p><i class="fa fa-th-large"></i> 750 Square foot</p>
 										<p><i class="fa fa-bed"></i> 5 Bedrooms</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 3 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
@@ -511,7 +502,7 @@
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$1,800/month</a>
@@ -526,27 +517,26 @@
 						</div>
 						<div class="feature-text">
 							<div class="text-center feature-title">
-								<h5>712 Southland Circle Dr</h5>
-								<p><i class="fa fa-map-marker"></i> Tuscola, IL 61953</p>
+								<p><i class="fa fa-map-marker"></i>&nbsp;Entebbe</p>
 							</div>
 							<div class="room-info-warp">
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-th-large"></i>   200 Square foot</p>
+										<p><i class="fa fa-th-large"></i> 200 Square foot</p>
 										<p><i class="fa fa-bed"></i> 2 Bedrooms</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-car"></i> 1 Garages</p>
 										<p><i class="fa fa-bath"></i> 2 Bathrooms</p>
-									</div>	
+									</div>
 								</div>
 								<div class="room-info">
 									<div class="rf-left">
-										<p><i class="fa fa-user"></i>  Gina Wesley</p>
+										<p><i class="fa fa-user"></i> Gina Wesley</p>
 									</div>
 									<div class="rf-right">
 										<p><i class="fa fa-clock-o"></i> 8 days ago</p>
-									</div>	
+									</div>
 								</div>
 							</div>
 							<a href="#" class="room-price">$235,000</a>
